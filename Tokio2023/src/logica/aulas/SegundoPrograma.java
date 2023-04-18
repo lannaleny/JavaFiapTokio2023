@@ -10,15 +10,15 @@ public class SegundoPrograma {
 		
 		System.out.println("Digite seu nome");
 		String nome = entrada.nextLine();
-		System.out.println("------------------------------");
+		System.out.println("---------------------------------------------------");
 		
 		System.out.println("Bem-vindo" + nome);
-		System.out.println("----------------------------------");
+		System.out.println("---------------------------------------------------");
 		
 		System.out.println("Digite sua idade");
-		System.out.println("Voce tem:" + entrada.nextLine());
+		System.out.println("Voce tem: " + entrada.nextLine());
 		
-
+        entrada.close();
 	}
 
 }
