@@ -29,6 +29,8 @@ public class Manipulacao {
 		 
 		 System.out.println(precoFloat);
 		 
+		 entrada.close();
+		 
 		 
 		 
 			
