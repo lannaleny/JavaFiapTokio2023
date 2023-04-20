@@ -17,11 +17,14 @@ public class Exercicio8 {
 	  double libra = (conversao * 6.23);
 	  double iene = (conversao * 0.038);
 	  
+	  System.out.println("Valores convertidos em reais");
+	  System.out.println("Valor em dolar: " + dolar);
+	  System.out.println("Valor em euro: " + euro); 
+	  System.out.println("Valor em peso: " + peso);
+	  System.out.println("Valo em libra: " + libra);
+	  System.out.println("Valor em iene: " + iene);
 	  
-	  
-	 
-	  
-	  
+	  entrada.close();
 	  
 	  
 	  
