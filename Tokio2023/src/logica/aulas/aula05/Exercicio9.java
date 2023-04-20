@@ -8,14 +8,20 @@ public class Exercicio9 {
 	
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Digite um numero de 1 a 999:");
-		double numDig =  entrada.nextDouble();
+		System.out.println("Digite um numero");
+		int numDig =  entrada.nextInt();
 		
-		double centena = numDig
-	    double dezena = 
-	    double unidade = 
-
+		int centena = (numDig / 100) * 100;
+	    int dezena = (numDig % 100) * 1;
+	    int unidade = (numDig % 10);
 	    
+	    
+	    System.out.println("Centena: " + centena);
+	    System.out.println("Dezena: " + dezena);
+	    System.out.println("unudade: " + unidade);
+	    
+	    
+	 
 	    
 	    entrada.close();
 	}
