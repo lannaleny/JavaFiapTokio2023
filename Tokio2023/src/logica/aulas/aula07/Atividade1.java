@@ -22,7 +22,9 @@ public class Atividade1 {
 		num = entrada.nextInt();
 		soma += num;
 		
-		System.out.println("Essa e a soma" + soma);
+		System.out.println("Essa e a soma " + soma);
+		
+		entrada.close();
 	}
 
 }

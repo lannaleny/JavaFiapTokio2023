@@ -27,22 +27,22 @@ public class WhileLaco {
 //		}
 		//Modificadores de laço
 		
-		int i = 0;
+//		int i = 0;
 		
-		while  (i < 10) {
-			i++;
-			
-			if (i == 3 || i == 5) {
-				continue;
-			}
-			if (i == 7) {
-				break;
-			}
-			System.out.println("Cambalhota" + i);
-		}
-		System.out.println("Fim do programa");
+//		while  (i < 10) {
+//			i++;
+//			
+//			if (i == 3 || i == 5) {
+//				continue;
+//			}
+//			if (i == 7) {
+//				break;
+//			}
+//			System.out.println("Cambalhota" + i);
+//		}
+//		System.out.println("Fim do programa");
 		
-		
+        entrada.close();
 				
 	}
 

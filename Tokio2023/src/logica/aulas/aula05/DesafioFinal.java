@@ -8,11 +8,15 @@ public class DesafioFinal {
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.println("Quantos anos voce ja viveu?");
-		int vividos = entrada.nextInt();
+		int diasVividos = entrada.nextInt();
 		
+		int anos = (diasVividos / 365) ;
+		int meses = (diasVividos % 365) / 30;
+		int dias = (diasVividos % 365) % 30;
 		 
+		System.out.println("Voce tem: " + anos + " anos" + "\nVoce tem: " + meses + " mes" + "\nVoce tem: " + dias + " dias");
 		
-
+		entrada.close();
 	}
 
 }
