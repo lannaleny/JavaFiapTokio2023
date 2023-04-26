@@ -8,28 +8,20 @@ public class Exercicio6 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Digite o ano do seu nascimento");
-		String anoNas = sc.nextLine();
+		int anoNas = sc.nextInt();
 		
-		if (anoNas >= 2005 && <= 70) {
+		
+		if (anoNas <= 2005 && anoNas >= 1953) {
 			System.out.println("Voto obrigatorio");
-		}else if (anoNAs >=16 && <18) {
+		} else if (anoNas <= 2007 && anoNas > 2005) {
 			System.out.println("Voto opcional");
-		}else {
-			System.out.println("Proibido");
-		}
-			
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		} else if (anoNas > 2007 )
+			System.out.println("Proibido");	
 		
 		
 		sc.close();
+    	}
+	
 	}
 
-}
+
