@@ -14,7 +14,7 @@ public class Exercicio5 {
 		System.out.println("Digite a segunda nota:");
 		double nota2 = entrada.nextDouble();
 		
-		double mediaPonderada = (nota1 * 4) + (nota2 * 6);
+		double mediaPonderada = (nota1 * 0.4) + (nota2 * 0.6);
 		
 		System.out.println("Sua media ponderada e de: " + mediaPonderada);
 		

@@ -20,18 +20,19 @@ class Exercicio3 {
 		int nota4 = entrada.nextInt();
 		 
 		int notaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
-		 
+	    System.out.println("sua media e " + notaFinal);
+			
 		if (notaFinal >= 7) {
 			System.out.println("Aprovado");
 		}else if (notaFinal >=5 && notaFinal < 7) {
 			System.out.println("Recuperacao");
-		}else if (notaFinal <5)
+		}else {
 		System.out.println("Reprovado");
 		
 	 entrada.close();
-	}
+	  }
 		
-	
+	}
 }
 	
 

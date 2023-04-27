@@ -31,7 +31,7 @@ public class Atividade4 {
 		double media = (nota1 + nota2) / 2;
 		
 		System.out.println("Media " + media);
-		System.out.println("Media %.2f %.2f %.2f ", media );
+		System.out.printf("Media %.2f %.2f %.2f ", media );
 		
 		sc.close();
 	}

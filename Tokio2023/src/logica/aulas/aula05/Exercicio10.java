@@ -17,9 +17,9 @@ public class Exercicio10 {
 		System.out.println("Quantos dias?");
 		int dias = entrada.nextInt();
 		
-		int anosVividos = (idade * 365) + (meses * 30) + dias;
+		int diasVividos = (idade * 365) + (meses * 30) + dias;
 		
-		System.out.println("Voce viveu " + anosVividos + " dias");
+		System.out.println("Voce viveu " + diasVividos + " dias");
 		
 		entrada.close();
 	}

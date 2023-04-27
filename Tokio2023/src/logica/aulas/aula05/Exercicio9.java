@@ -12,13 +12,13 @@ public class Exercicio9 {
 		int numDig =  entrada.nextInt();
 		
 		int centena = (numDig / 100) * 100;
-	    int dezena = (numDig % 100) * 1;
+	    int dezena = (numDig / 100) * 10;
 	    int unidade = (numDig % 10);
 	    
 	    
 	    System.out.println("Centena: " + centena);
 	    System.out.println("Dezena: " + dezena);
-	    System.out.println("unudade: " + unidade);
+	    System.out.println("unidade: " + unidade);
 	    
 	    
 	 

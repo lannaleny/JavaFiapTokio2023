@@ -14,30 +14,22 @@ public class Exercicio5 {
 	  int num2 = sc.nextInt();
 	  
 	  System.out.println("Digite a operacao matematica");
-//	  String car1 =  (sc.nextLine() +sc.nextLine());
-	  
-	  
-	  int  resposta = sc.nextInt();
-	  	   
-	  switch (resposta) {
-	    case 1:
-	      resposta = num1 + num2;
-	      System.out.println(resposta);
+	  char operacao = sc.next().charAt(0);
+	  	  	   
+	  switch (operacao) {
+	    case '+':
+	      System.out.println(num1 + num2);
 	      break;
-	    case 2:
-	      resposta = num1 / num2;
-	      System.out.println(resposta);
+	    case '-':
+	      System.out.println(num1 - num2);
 	    break;
-	  case 3:
-	    resposta = num1 - num2;
-	    System.out.println(resposta);
+	  case '/':
+	    System.out.println(num1 / num2);
 	    break;
-	  case 4:
-	   resposta = num1 * num2;
-	   System.out.println(resposta);
+	  case '*':
+	   System.out.println(num1 * num2);
 	   break;
-	   default:
-		   System.out.println("Valor invalido");
+	  
 		}
 	  	 
 	 

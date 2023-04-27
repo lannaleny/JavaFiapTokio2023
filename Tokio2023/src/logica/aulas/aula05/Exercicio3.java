@@ -15,7 +15,7 @@ public class Exercicio3 {
 	    System.out.println("\n[M] masculino" + "\n[F] feminino" + "\n[O] outro" + "\n[N] nao responder");
 		char genero = entrada.nextLine().charAt(0);
 		
-		System.out.println("Ola," + nome + " seu genero e " + genero);
+		System.out.println("Ola, " + nome + " seu genero e " + genero);
 		
 		entrada.close();
 		

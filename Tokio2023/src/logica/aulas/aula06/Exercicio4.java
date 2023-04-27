@@ -1,4 +1,4 @@
-package logica.aulas.aula06;
+ package logica.aulas.aula06;
 
 import java.util.Scanner;
 
@@ -13,10 +13,10 @@ public class Exercicio4 {
 	 System.out.println("Digite o segundo numero");
 	 int numB = sc.nextInt();
 	 
-	 if (numA % numB == 0) {
-		 System.out.println("Esses numeros sao multiplos entre si");
+	 if (numA % numB == 0 || numB % numA == 0) {
+		 System.out.println("Esses numeros sao multiplos ");
 	 } else {
-		 System.out.println("Esse numeros nao sao multiplos entre si");
+		 System.out.println("Esse numeros nao sao multiplos");
 	 }
 	 
       sc.close();

@@ -12,7 +12,7 @@ public class Exercicio8 {
 	  double conversao = entrada.nextDouble();
 	  
 	  double dolar = (conversao * 5.08);
-	  double euro = (conversao * 5.57);	
+	  double euro = (conversao * 0.18);	
 	  double peso = (conversao * 0.023);
 	  double libra = (conversao * 6.23);
 	  double iene = (conversao * 0.038);

@@ -7,7 +7,7 @@ public class DesafioFinal {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Quantos anos voce ja viveu?");
+		System.out.println("Quantos dias voce ja viveu?");
 		int diasVividos = entrada.nextInt();
 		
 		int anos = (diasVividos / 365) ;
