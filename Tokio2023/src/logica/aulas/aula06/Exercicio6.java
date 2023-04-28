@@ -7,15 +7,23 @@ public class Exercicio6 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Digite o ano atual");
+		int anoAtual = sc.nextInt();
+		
 		System.out.println("Digite o ano do seu nascimento");
 		int anoNas = sc.nextInt();
 		
+		int idade = (anoAtual - anoNas);
 		
-		if (anoNas <= 2005 && anoNas >= 1953) {
+		if ( idade == 18||idade == 70) {
+			System.out.println("Se tiver " + idade + " anos ");
+		}
+					
+		if (idade >= 18 && idade <= 70) {
 			System.out.println("Voto obrigatorio");
-		} else if (anoNas <= 2007 && anoNas > 2005) {
+		} else if (idade >= 16 && idade < 18 || idade > 70) {
 			System.out.println("Voto opcional");
-		} else if (anoNas > 2007 )
+		} else if (idade < 16 )
 			System.out.println("Proibido");	
 		
 		

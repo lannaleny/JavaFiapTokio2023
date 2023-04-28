@@ -29,7 +29,8 @@ public class Exercicio5 {
 	  case '*':
 	   System.out.println(num1 * num2);
 	   break;
-	  
+	   default:
+		   System.out.println("Opcao invalida");
 		}
 	  	 
 	 
